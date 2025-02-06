@@ -1,15 +1,15 @@
-import React, { useState } from "react";
-import Projects from "./Projects";
+import React, { useState } from "react"; 
 import Certificate from "./Certificate";
 import Skills from "./Skills";
+import ProjectList from "./ProjectList";
 
 const Showcase = () => {
   const [activeItem, setActiveItem] = useState("project");
 
   return (
-    <div className="lg:px-24  bg-transparent pt-10 ">
+    <div className="lg:px-24  bg-transparent lg:pt-10 md:pt-5 pt-0">
         <div>
-      <h1 className="text-3xl text-center font-bold bg-gradient-to-r from-white  via-pink-500  to-red-950 text-transparent bg-clip-text">Portfolio Showcase</h1>
+      <h1 className="text-3xl text-center font-bold bg-gradient-to-t from-white  via-red-700  to-red-950 text-transparent bg-clip-text">Portfolio Showcase</h1>
       <p className="text-xs text-center text-gray-400 my-2">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero minima
         dignissimos recusandae, vitae iusto suscipit blanditiis repellat.
@@ -36,9 +36,9 @@ const Showcase = () => {
           <h1>Skills</h1>
         </div>
       </div>
-        </div>
-        <div>
-            {activeItem === 'project' && <Projects/>}
+        </div> 
+        <div className=" flex justify-center">
+            {activeItem === 'project' && <ProjectList/>}
             {activeItem === 'certificate' && <Certificate/>}
             {activeItem === 'skills' && <Skills/>}
         </div>

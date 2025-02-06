@@ -17,8 +17,8 @@ const technologies = [
 const Skills = () => {          
   return (
     <div className="bg-transparent py-10">
-      <h2 className="text-3xl font-bold text-center mb-6 text-gray-800">My Skills</h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-4 justify-items-center">
+       
+      <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-8 gap-4 justify-items-center">
         {technologies.map((tech, index) => (
           <div
             key={index}

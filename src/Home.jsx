@@ -10,6 +10,8 @@ import Welcome from "./Components/Welcome";
 import Showcase from "./Components/Showcase";
 import NewHero from "./Components/NewHero";
 import ContactMe from "./Components/ContactMe";
+import Footer from "./Components/Footer";
+import ProjectDetails from "./Components/ProjectDetails";
 
 const Home = () => {
   const [time, setTime] = useState(true);
@@ -17,7 +19,7 @@ const Home = () => {
   // Hide the Welcome component after 3 seconds
   setTimeout(() => {
     setTime(false);
-  }, 1100);
+  }, 500);
 
   return (
     <>
@@ -35,37 +37,42 @@ const Home = () => {
           className="relative min-h-screen w-full  bg-cover bg-fixed bg-center"
           style={{ backgroundImage: `url(${full_bg})` }}
           initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 4 }}
         >
           <div className="backdrop-blur-[11px]   ">
-          <motion.div
-            id="children"
-            className="bg-transparent   container mx-auto  pb-20 h-full w-full"
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
-          >
+            <motion.div
+              id="children"
+              className="bg-transparent   container mx-auto  pb-20 h-full w-full"
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}
+            > 
+              {/* <Hero /> */}
+              <div>
+                <NewHero />
+              </div>
+              <div>
+                <AboutMe />
+              </div>
+              <div className="bg-transparent ">
+                <Showcase />
+              </div>
 
-            <div>
-              <Navbar />
-            </div>
-            {/* <Hero /> */}
-            <div>
-              <NewHero/>
-            </div> 
-            <div>
-              <AboutMe/>
-            </div>
-            <div className="bg-transparent "> 
-            <Showcase/>
-            </div>
+              <div>
+                <ContactMe />
+              </div>
 
-<div><ContactMe/></div>
-            <div>
+
+
+              
+            </motion.div>
           </div>
-          </motion.div>
-          </div>
+
+
+
+
+
 
           
         </motion.div>

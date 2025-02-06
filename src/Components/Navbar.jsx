@@ -1,19 +1,20 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
-    <div className="fixed top-0  w-full container mx-auto z-50 bg-black backdrop-blur-md shadow-md">
-      <div className="flex justify-between items-center px-6 py-3  ">
+    <div className="fixed top-0 w-full container mx-auto z-50 bg-black backdrop-blur-md shadow-md">
+      <div className="flex justify-between items-center px-6 py-3">
         {/* Logo */}
-        <a className="text-orange-500 text-2xl font-bold">
+        <Link to="/" className="text-red-600 text-3xl font-bold">
           MUB<span className="text-blue-500">in</span>
-        </a>
+        </Link>
 
-        {/* Resume Button */}
-        <button className="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 transition">
-          Resume
-        </button>
+        {/* Resume Download Button */}
+        <Link target="_blank" to="https://drive.google.com/file/d/1ra5kXGugbrmnhkpFde4Z0TzYaM-IkJE4/view?usp=sharing" className="btn bg-red-600 text-white border-none">  See Resume</Link>
       </div>
     </div>
   );
 };
 
 export default Navbar;
+
