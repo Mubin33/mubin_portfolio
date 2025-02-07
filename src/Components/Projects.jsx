@@ -28,7 +28,8 @@ const Projects = [
       "https://i.ibb.co.com/7g0Hjtd/Screenshot-65.png",
       "https://i.ibb.co.com/z20CTNN/Screenshot-66.png",
     ],
-    link: "https://focusplace.example.com",
+    live_link: "https://focus-place-micro-job-placement.surge.sh/",
+    github_link: "https://github.com/Mubin33/focus-place-micro-job-client-side", 
   },
     {
       title: "FLIX 🎥",
@@ -62,7 +63,8 @@ const Projects = [
         "https://i.ibb.co.com/vxXGz1SQ/Screenshot-35.png",
         "https://i.ibb.co.com/Fb2t3dcd/Screenshot-36.png",
       ],
-      link: "https://flix.example.com",
+      live_link: "https://flixmovieprojectbymubin.surge.sh/", 
+      github_link: "https://github.com/Mubin33/flex-movie-hunt", 
     },
     {
       title: "Procar 🚀",
@@ -91,7 +93,8 @@ const Projects = [
         "https://i.ibb.co.com/4ZrFzyF6/Screenshot-40.png",
         "https://i.ibb.co.com/W4W6GxTp/procar.png",
       ],
-      link: "https://procar.example.com",
+      live_link: "https://serviceprojectbymubinb10a11.surge.sh/",
+      github_link: "https://github.com/Mubin33/Procar-service-client-side",
     },
   ];
   

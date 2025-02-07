@@ -5,14 +5,13 @@ import { CiTextAlignLeft } from "react-icons/ci";
 
 const ContactMe = () => {
   return (
-    <div className="lg:px-20 md:px-2 px-1 mt-48">
+    <div className="lg:px-20 md:px-2 px-1 mt-56">
       <h1 className="text-4xl text-center font-bold my-8 bg-gradient-to-t from-white  via-red-700  to-red-950 text-transparent bg-clip-text">Your Experience and Feedback</h1>
       <div className="lg:px-5 md:px-2 px-1 md:grid  lg:gap-12 md:gap-3 grid-cols-12 rounded-xl ">
         <div className="col-span-4 py-5 px-4 bg-red-900 bg-opacity-10">
           <h1 className="text-2xl text-white font-semibold">Get in Touch</h1>
           <p className="text-xs text-gray-500">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Temporibus!
+            You can email me for any communication or comment anything here.
           </p>
           <div className="relative mt-8">
             <div className="absolute  left-2 text-gray-500 top-2">

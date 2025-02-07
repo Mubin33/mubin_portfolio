@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center px-6 py-3">
         {/* Logo */}
         <Link to="/" className="text-red-600 text-3xl font-bold">
-          MUB<span className="text-blue-500">in</span>
+          MUB<span className="text-sky-500">in</span>
         </Link>
 
         {/* Resume Download Button */}
