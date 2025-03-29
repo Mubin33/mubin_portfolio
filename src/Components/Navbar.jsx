@@ -10,7 +10,7 @@ const Navbar = () => {
         </Link>
 
         {/* Resume Download Button */}
-        <Link target="_blank" to="https://drive.google.com/file/d/1ra5kXGugbrmnhkpFde4Z0TzYaM-IkJE4/view?usp=sharing" className="btn bg-red-600 text-white border-none">  See Resume</Link>
+        <Link target="_blank" to="https://drive.google.com/file/d/1yd7p9LaD9wLiq5JkT_77W4jRL1d-UDh_/view?usp=sharing" className="btn bg-red-600 text-white border-none">  See Resume</Link>
       </div>
     </div>
   );

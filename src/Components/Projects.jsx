@@ -19,6 +19,14 @@ const Projects = [
     
     **Hosting & Tech Stack:**
     - Firebase Hosting, MongoDB, React, Tailwind CSS.
+
+    **Improvements can be made:**
+    The UI can be much better them this and multiple features can be added
+    There is some code repetition, It could be fix by using reusable components
+
+    **Challenges I faced:**
+    The most crucial one was to handle the backend with frontend code, Sometimes i was getting confused about how to start with a features
+    Another one was to set the data based on role, it was one of the frustrating part for me because i was stuck for hours to fix it.
     `,
     images: [
       "https://i.ibb.co/dMc26ZG/Screenshot-61.png",
@@ -54,6 +62,14 @@ const Projects = [
   
       **Additional Features:**
       - Search Functionality, Loading Spinners, and Toast Notifications.
+
+          **Improvements can be made:**
+    The UI can be much better them this and multiple features can be added
+    There is some code repetition, It could be fix by using reusable components
+
+    **Challenges I faced:**
+    The most crucial one was to handle the backend with frontend code, Sometimes i was getting confused about how to start with a features
+    Another one was to set the data based on role, it was one of the frustrating part for me because i was stuck for hours to fix it.
       `,
       images: [
         "https://i.ibb.co.com/QFH5cmsB/Screenshot-30.png",
@@ -84,6 +100,14 @@ const Projects = [
   
       **Deployment:**
       - Frontend on Vercel, Backend with MongoDB, Authentication via Firebase.
+
+          **Improvements can be made:**
+    The UI can be much better them this and multiple features can be added
+    There is some code repetition, It could be fix by using reusable components
+
+    **Challenges I faced:**
+    The most crucial one was to handle the backend with frontend code, Sometimes i was getting confused about how to start with a features
+    Another one was to set the data based on role, it was one of the frustrating part for me because i was stuck for hours to fix it.
       `,
       images: [
         "https://i.ibb.co.com/8gxSdNDr/Screenshot-39.png",

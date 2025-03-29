@@ -29,7 +29,7 @@ const ProjectCard = ({ project, projectIndex }) => {
   }, [project.images.length]);
 
   return (
-    <div className="bg-black w-[300px]  text-white rounded-lg shadow-lg shadow-red-950 overflow-hidden">
+    <div className="bg-black md:w-[300px] w-[280px]  text-white rounded-lg shadow-lg shadow-red-950 overflow-hidden">
       <div className=" h-52  w-full overflow-hidden">
         <img
           src={project.images[currentImage]}

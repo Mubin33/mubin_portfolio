@@ -13,13 +13,13 @@ const App = () => {
     }, 1100);
   return (
     <div>
-      <div>
+      <div className='container mx-auto'>
         {time ? "": <Navbar/>}
       </div>
       <div className='min-h-screen bg-black'>
       <Outlet/>
       </div>
-      <div className=" bg-neutral ">
+      <div className=" bg-[#140808] ">
       {time ? "": <Footer/>} 
               </div>
     </div>

@@ -12,12 +12,13 @@ const technologies = [
   { name: 'Express', img: 'https://cdn.hashnode.com/res/hashnode/image/upload/v1675637255386/f3a9a38b-116d-4b35-8f46-8d8abb78166f.png' },
   { name: 'Firebase', img: 'https://1.bp.blogspot.com/-YIfQT6q8ZM4/Vzyq5z1B8HI/AAAAAAAAAAc/UmWSSMLKtKgtH7CACElUp12zXkrPK5UoACLcB/s400/image00.png' },
   { name: 'Next.js', img: 'https://testrigor.com/wp-content/uploads/2023/04/nextjs-logo.png' },
+  { name: 'TypeScript', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png' },
 ];
 
-const Skills = () => {          
+const Skills = () => {
   return (
     <div className="bg-transparent py-10">
-       
+
       <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-8 gap-4 justify-items-center">
         {technologies.map((tech, index) => (
           <div
@@ -37,7 +38,7 @@ export default Skills;
 
 
 
- // <div className="bg-transparent py-10 "> 
+ // <div className="bg-transparent py-10 ">
     //   <Marquee gradient={false} speed={50}>
     //     {technologies.map((tech, index) => (
     //       <div

@@ -28,9 +28,9 @@ const MePage = () => {
             </p>
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-400">
             <p><strong className="text-red-600">Age:</strong> 19</p>
-            <p><strong className="text-red-600">Location:</strong>Chottogram, Bangladesh</p>
+            <p><strong className="text-red-600">Location:</strong> Chottogram, Bangladesh</p>
             <p><strong className="text-red-600">Profession:</strong> MERN Stack Developer</p>
-            <p><strong className="text-red-600">Email:</strong> mubinulislam@gmail.com</p>
+            <p><strong className="text-red-600">Email:</strong> mubinulislam14@gmail.com</p>
             <p><strong className="text-red-600">Contact Number:</strong> +8801641278681</p>
             <p><strong className="text-red-600">Whatsapp:</strong> +8801987585355</p>
           </div>

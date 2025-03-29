@@ -10,7 +10,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
-import { IoMdCloudDownload } from "react-icons/io"; 
+import { IoMdCloudDownload } from "react-icons/io";
 
 const AboutMe = () => {
   return (
@@ -40,19 +40,19 @@ const AboutMe = () => {
             while continually enhancing my technical expertise and professional
             capabilities.
           </p>
-          <div className="flex space-x-4 mt-5">
+          <div className="flex  md:space-x-4 space-x-2 mt-5">
             <Link
               target="_blank"
-              to="https://drive.google.com/file/d/1ra5kXGugbrmnhkpFde4Z0TzYaM-IkJE4/view?usp=sharing"
-              className="btn bg-red-600 text-white border-none"
+              to="https://drive.google.com/file/d/1yd7p9LaD9wLiq5JkT_77W4jRL1d-UDh_/view?usp=sharing"
+              className="btn btn-sm md:btn-md bg-red-600 text-white border-none"
             >
               <FaRegFilePdf size={19} /> See Resume
             </Link>
 
             <a
-              href="https://drive.google.com/uc?export=download&id=1ra5kXGugbrmnhkpFde4Z0TzYaM-IkJE4"
+              href="https://drive.google.com/uc?export=download&id=1yd7p9LaD9wLiq5JkT_77W4jRL1d-UDh_"
               download
-              className="btn btn-outline  text-red-600"
+              className="btn btn-outline btn-sm md:btn-md  text-red-600"
             >
               <IoMdCloudDownload size={19} />
               Download Resume
@@ -97,11 +97,11 @@ const AboutMe = () => {
             <div className="rounded-full items-center mb-3 bg-white bg-opacity-10 p-3">
               <FaCode size={18} />
             </div>
-            <h1 className="text-2xl font-semibold">11</h1>
+            <h1 className="text-2xl font-semibold">14+</h1>
           </div>
           <h1 className="text-sm font-semibold my-1">Project</h1>
           <p className="text-xs text-gray-400">
-            MERN Stack 3 and normal project 8
+            MERN Stack 6 and only design project 8+
           </p>
         </div>
 
@@ -110,11 +110,11 @@ const AboutMe = () => {
             <div className="rounded-full items-center mb-3 bg-white bg-opacity-10 p-3">
               <PiCertificateDuotone size={18} />
             </div>
-            <h1 className="text-2xl font-semibold">7</h1>
+            <h1 className="text-2xl font-semibold">4+</h1>
           </div>
           <h1 className="text-sm font-semibold my-1">Certificate</h1>
           <p className="text-xs text-gray-400">
-            In total Certificate more than 7 
+            In total Certificate more than 4
           </p>
         </div>
 
