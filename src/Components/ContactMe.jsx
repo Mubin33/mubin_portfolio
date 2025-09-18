@@ -1,4 +1,4 @@
-import React from "react";
+
 import { IoPerson } from "react-icons/io5";
 import { MdMarkEmailRead } from "react-icons/md";
 import { CiTextAlignLeft } from "react-icons/ci";

@@ -3,8 +3,7 @@ import about from "../../public/about.json";
 import { FaCode } from "react-icons/fa6";
 import { PiCertificateDuotone } from "react-icons/pi";
 import { TbWorldWww } from "react-icons/tb";
-import { FaRegFilePdf } from "react-icons/fa";
-import { LiaProjectDiagramSolid } from "react-icons/lia";
+import { FaRegFilePdf } from "react-icons/fa"; 
 import { Link } from "react-router-dom";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
@@ -43,14 +42,14 @@ const AboutMe = () => {
           <div className="flex  md:space-x-4 space-x-2 mt-5">
             <Link
               target="_blank"
-              to="https://drive.google.com/file/d/1yd7p9LaD9wLiq5JkT_77W4jRL1d-UDh_/view?usp=sharing"
+              to="https://drive.google.com/file/d/1dWHyCO51PSSy1hl9afJ33uOm2d25yGk-/view?usp=sharing"
               className="btn btn-sm md:btn-md bg-red-600 text-white border-none"
             >
               <FaRegFilePdf size={19} /> See Resume
             </Link>
 
             <a
-              href="https://drive.google.com/uc?export=download&id=1yd7p9LaD9wLiq5JkT_77W4jRL1d-UDh_"
+              href="https://drive.google.com/uc?export=download&id=1dWHyCO51PSSy1hl9afJ33uOm2d25yGk-"
               download
               className="btn btn-outline btn-sm md:btn-md  text-red-600"
             >
@@ -101,7 +100,7 @@ const AboutMe = () => {
           </div>
           <h1 className="text-sm font-semibold my-1">Project</h1>
           <p className="text-xs text-gray-400">
-            MERN Stack 6 and only design project 8+
+            MERN Stack 9 and only design project 8+
           </p>
         </div>
 

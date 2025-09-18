@@ -12,6 +12,7 @@ import NewHero from "./Components/NewHero";
 import ContactMe from "./Components/ContactMe";
 import Footer from "./Components/Footer";
 import ProjectDetails from "./Components/ProjectDetails";
+import { Card3D } from "./Components/_ui/Card3D";
 
 const Home = () => {
   const [time, setTime] = useState(true);
@@ -50,7 +51,7 @@ const Home = () => {
             > 
               {/* <Hero /> */}
               <div>
-                <NewHero />
+                <NewHero /> 
               </div>
               <div>
                 <AboutMe />

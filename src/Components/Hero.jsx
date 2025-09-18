@@ -21,7 +21,7 @@ const Hero = () => {
                     I'm Mubin,
                     <br />
                     As a Frontend Developer
-                </h1>
+                </h1> 
                 <p className="mt-4 text-xs text-gray-300">
                     My interest in web development started with a curiosity about how websites function and a passion for transforming creative ideas into interactive digital experiences.
                 </p>

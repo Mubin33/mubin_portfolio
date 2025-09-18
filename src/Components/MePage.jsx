@@ -10,7 +10,7 @@ const MePage = () => {
       transition={{ duration: 1.5 }}
       className="min-h-screen py-20  flex flex-col items-center justify-center bg-[#180606] text-white "
     >
-      <div className="md:px-10 px-3 w-full flex flex-col md:flex-row items-center gap-5">
+      <div className="md:px-10 px-3 w-full flex flex-col md:flex-row items-center gap-5 container mx-auto">
         {/* Image Section */}
         <div className="w-48 h-48 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-red-600 shadow-lg">
           <img
@@ -28,11 +28,10 @@ const MePage = () => {
             </p>
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-400">
             <p><strong className="text-red-600">Age:</strong> 19</p>
-            <p><strong className="text-red-600">Location:</strong> Chottogram, Bangladesh</p>
+            <p><strong className="text-red-600">Location:</strong> Mohakhali, Dhaka, Bangladesh</p>
             <p><strong className="text-red-600">Profession:</strong> MERN Stack Developer</p>
             <p><strong className="text-red-600">Email:</strong> mubinulislam14@gmail.com</p>
-            <p><strong className="text-red-600">Contact Number:</strong> +8801641278681</p>
-            <p><strong className="text-red-600">Whatsapp:</strong> +8801987585355</p>
+            <p><strong className="text-red-600">Contact Number:</strong> +8801641278681</p> 
           </div>
           
           {/* Education Section */}
@@ -41,7 +40,7 @@ const MePage = () => {
             <div className="mt-4 text-sm text-gray-300">
               <p><strong className="text-red-600">Degree:</strong> Diploma in Computer Science</p>
               <p><strong className="text-red-600">Institution:</strong>Lakshmipur Polytechnic Institute</p>
-              <p><strong className="text-red-600">Year:</strong> 2021 - 2025</p>
+              <p><strong className="text-red-600">Session :</strong> 2021 - 2022</p>
             </div>
           </div>
           

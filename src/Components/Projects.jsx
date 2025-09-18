@@ -1,5 +1,44 @@
 const Projects = [
   {
+    title: "EMPTYBD",
+    description:
+      "Developed an online gaming tournament platform with secure ticket purchase system, unlocking full tournament details for registered players",
+    details: `
+    **Features:**
+    - Role-based authentication (Worker & Buyer).
+    - Workers can earn and withdraw money via Stripe.
+    - Buyers can purchase coins to post tasks.
+    - Admin Dashboard for user & transaction management.
+    
+    **Coin System:**
+    - Workers earn coins for completed tasks (20 coins = $1).
+    - Buyers can purchase coins via Stripe.
+    
+    **Notification System:**
+    - Real-time task updates, approvals, and withdrawals.
+    
+    **Hosting & Tech Stack:**
+    - Firebase Hosting, MongoDB, React, Tailwind CSS.
+
+    **Improvements can be made:**
+    The UI can be much better them this and multiple features can be added
+    There is some code repetition, It could be fix by using reusable components
+
+    **Challenges I faced:**
+    The most crucial one was to handle the backend with frontend code, Sometimes i was getting confused about how to start with a features
+    Another one was to set the data based on role, it was one of the frustrating part for me because i was stuck for hours to fix it.
+    `,
+    images: [
+      "https://i.ibb.co.com/PZTzMMZr/Screenshot-2025-09-16-152711.png",
+      "https://i.ibb.co.com/VYzMTdyB/Screenshot-2025-09-16-152813.png",
+      "https://i.ibb.co.com/Z1wS4cHP/Screenshot-2025-09-16-152911.png",
+      "https://i.ibb.co.com/ztpkL6X/Screenshot-2025-09-16-152933.png",
+      "https://i.ibb.co.com/99QdBTXC/Screenshot-2025-09-16-152951.png",
+      "https://i.ibb.co.com/4gWttFMg/Screenshot-2025-09-16-153009.png",
+    ],
+    live_link: "https://emptybd.com", 
+  },
+  {
     title: "Focus Place",
     description:
       "A Micro Tasking and Earning Platform connecting buyers and workers. Users can post, complete, and manage tasks seamlessly.",

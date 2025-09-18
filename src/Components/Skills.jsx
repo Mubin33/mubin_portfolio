@@ -13,6 +13,7 @@ const technologies = [
   { name: 'Firebase', img: 'https://1.bp.blogspot.com/-YIfQT6q8ZM4/Vzyq5z1B8HI/AAAAAAAAAAc/UmWSSMLKtKgtH7CACElUp12zXkrPK5UoACLcB/s400/image00.png' },
   { name: 'Next.js', img: 'https://testrigor.com/wp-content/uploads/2023/04/nextjs-logo.png' },
   { name: 'TypeScript', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png' },
+  { name: 'Python', img: 'https://niltechedu.com/blog/wp-content/uploads/2021/11/python-programming-language.png' },
 ];
 
 const Skills = () => {

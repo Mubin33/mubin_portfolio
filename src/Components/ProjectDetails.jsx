@@ -25,7 +25,7 @@ const ProjectDetails = () => {
         <pre className=" bg-red-900 bg-opacity-30 text-white lg:p-4 p-1 rounded-lg mt-4 lg:text-sm md:text-[13px] text-[10px]">
           {project.details}
         </pre>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-6">
+        {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-6">
           {project.images.map((img, idx) => (
             <div key={idx} className="lg:px-0 md:px-28 px-20">
             <img
@@ -35,7 +35,7 @@ const ProjectDetails = () => {
               />
               </div>
           ))}
-        </div>
+        </div> */}
         <Link
           to={project.live_link}
           target="_blank" 
@@ -43,17 +43,19 @@ const ProjectDetails = () => {
         >
           Visit Project
         </Link>
-        <Link
+        {project.github_link && <Link
           to={project.github_link}
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-outline  text-red-600 m-3 hover:bg-sky-600 transition"
         >
           Visit Github
-        </Link>
+        </Link>}
+        
       </div>
     </div>
   );
 };
 
 export default ProjectDetails;
+

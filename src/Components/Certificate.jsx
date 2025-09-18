@@ -24,7 +24,7 @@ const Certificate = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7    py-12">
             {projects.map((project, index) => (
                 <Link target="_blank" to={project.link} key={index}>
-                <div className="flex items-center justify-center bg-white h-full w-[330px]">
+                <div className="flex items-center justify-center  h-full px-2 w-full xl:w-[330px]">
                     <img src={project.images} alt="" />
                 </div>
                 </Link>
